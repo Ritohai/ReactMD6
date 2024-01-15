@@ -214,6 +214,15 @@ main {
     background: #0a96f9;
     margin-left: 10px;
 }
+
+.table-responsive {
+    overflow-x: scroll;
+}
+
+.table-responsive tr th {
+    padding: 0 10px;
+}
+
 .table-content{
     padding: 30px;
     background: #ccc;
