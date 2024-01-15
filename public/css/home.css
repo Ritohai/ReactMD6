@@ -1,0 +1,37 @@
+.text {
+    padding-left: 1%;
+    display: flex;
+    transform: translateY(50%);
+}
+
+.container-box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #f5f5f5;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.box {
+    width: 47%;
+    height: 400px;
+    border: 1px solid #e8e8e8;
+    background: white;
+    margin:32px 5px 32px 32px;
+    padding: 0 12px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.item {
+    margin-top: 5%;
+}
+
+.box .box-item {
+    font-size: 40px;
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translateX(50%);
+}
